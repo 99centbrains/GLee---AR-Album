@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BV1-FR-VrT">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="ChocolateRain" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qyk-QH-JpG"/>
+                        <viewControllerLayoutGuide type="bottom" id="M8f-pE-79P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="awz-A0-YQI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdG-e6-0gj">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </sceneKitView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fdG-e6-0gj" firstAttribute="top" secondItem="Qyk-QH-JpG" secondAttribute="bottom" id="72K-aS-zEr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fdG-e6-0gj" secondAttribute="trailing" constant="-20" id="UOn-60-MPz"/>
+                            <constraint firstItem="M8f-pE-79P" firstAttribute="top" secondItem="fdG-e6-0gj" secondAttribute="bottom" id="ats-LG-fGg"/>
+                            <constraint firstItem="fdG-e6-0gj" firstAttribute="leading" secondItem="awz-A0-YQI" secondAttribute="leadingMargin" constant="-20" id="wCQ-AN-9cP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scnView" destination="fdG-e6-0gj" id="fHC-Iu-h8j"/>
+                        <outlet property="view" destination="awz-A0-YQI" id="mjy-ur-NGt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="317"/>
+        </scene>
+    </scenes>
+</document>

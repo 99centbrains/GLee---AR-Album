@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2944E42159A376B5ECF3DFF7 /* Pods_ChocolateRain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8022751F732DD5B2313A1AA /* Pods_ChocolateRain.framework */; };
+		8049720C1D28BCB7007CEE74 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8049720B1D28BCB7007CEE74 /* CoreLocation.framework */; };
+		8049720E1D28C4B5007CEE74 /* CMDeviceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049720D1D28C4B5007CEE74 /* CMDeviceMotion.swift */; };
+		804972271D2B25AA007CEE74 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 8049721C1D2B25AA007CEE74 /* cloud.png */; };
+		804972281D2B25AA007CEE74 /* image_bg_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8049721D1D2B25AA007CEE74 /* image_bg_01.jpg */; };
+		804972291D2B25AA007CEE74 /* image_bg_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8049721E1D2B25AA007CEE74 /* image_bg_02.jpg */; };
+		8049722A1D2B25AA007CEE74 /* image_bg_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8049721F1D2B25AA007CEE74 /* image_bg_03.jpg */; };
+		8049722B1D2B25AA007CEE74 /* image_bg_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804972201D2B25AA007CEE74 /* image_bg_04.jpg */; };
+		8049722C1D2B25AA007CEE74 /* image_bg_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804972211D2B25AA007CEE74 /* image_bg_05.jpg */; };
+		8049722D1D2B25AA007CEE74 /* image_bg_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804972221D2B25AA007CEE74 /* image_bg_06.jpg */; };
+		8049722E1D2B25AA007CEE74 /* image_bg_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804972231D2B25AA007CEE74 /* image_bg_07.jpg */; };
+		8049722F1D2B25AA007CEE74 /* image_bg_08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804972241D2B25AA007CEE74 /* image_bg_08.jpg */; };
+		804972301D2B25AA007CEE74 /* image_bg_09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804972251D2B25AA007CEE74 /* image_bg_09.jpg */; };
+		804972311D2B25AA007CEE74 /* img-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 804972261D2B25AA007CEE74 /* img-02.png */; };
+		8049723B1D2B25B2007CEE74 /* 01 Would You Be There.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804972331D2B25B2007CEE74 /* 01 Would You Be There.mp3 */; };
+		8049723C1D2B25B2007CEE74 /* 02 Haunt Me ( marian x gianni ).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804972341D2B25B2007CEE74 /* 02 Haunt Me ( marian x gianni ).mp3 */; };
+		8049723D1D2B25B2007CEE74 /* 03 HAZE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804972351D2B25B2007CEE74 /* 03 HAZE.mp3 */; };
+		8049723E1D2B25B2007CEE74 /* 04 Far Away (It's a Wild, Wild World My Love).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804972361D2B25B2007CEE74 /* 04 Far Away (It's a Wild, Wild World My Love).mp3 */; };
+		8049723F1D2B25B2007CEE74 /* 05 SpiderWebs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804972371D2B25B2007CEE74 /* 05 SpiderWebs.mp3 */; };
+		804972401D2B25B2007CEE74 /* 06 Burning Man 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804972381D2B25B2007CEE74 /* 06 Burning Man 1.mp3 */; };
+		804972411D2B25B2007CEE74 /* 07 Carrots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804972391D2B25B2007CEE74 /* 07 Carrots.mp3 */; };
+		804972421D2B25B2007CEE74 /* 08 Spacey (do dat shit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8049723A1D2B25B2007CEE74 /* 08 Spacey (do dat shit).mp3 */; };
+		804972441D2B6233007CEE74 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804972431D2B6233007CEE74 /* WaveformView.swift */; };
+		807104111D2B7B940029E9C6 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807104101D2B7B940029E9C6 /* AudioPlayer.swift */; };
+		80B607FF1CFBA2B60033A2D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B607FE1CFBA2B60033A2D5 /* AppDelegate.swift */; };
+		80B608011CFBA2B60033A2D5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B608001CFBA2B60033A2D5 /* art.scnassets */; };
+		80B608031CFBA2B60033A2D5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B608021CFBA2B60033A2D5 /* GameViewController.swift */; };
+		80B608061CFBA2B60033A2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B608041CFBA2B60033A2D5 /* Main.storyboard */; };
+		80B608081CFBA2B60033A2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B608071CFBA2B60033A2D5 /* Assets.xcassets */; };
+		80B6080B1CFBA2B60033A2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B608091CFBA2B60033A2D5 /* LaunchScreen.storyboard */; };
+		80B608161CFBA2B60033A2D5 /* ChocolateRainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B608151CFBA2B60033A2D5 /* ChocolateRainTests.swift */; };
+		80B608211CFBA2B60033A2D5 /* ChocolateRainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B608201CFBA2B60033A2D5 /* ChocolateRainUITests.swift */; };
+		80B6082F1CFBBF8B0033A2D5 /* MotionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6082E1CFBBF8B0033A2D5 /* MotionKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80B608121CFBA2B60033A2D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B607F31CFBA2B60033A2D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B607FA1CFBA2B60033A2D5;
+			remoteInfo = ChocolateRain;
+		};
+		80B6081D1CFBA2B60033A2D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B607F31CFBA2B60033A2D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B607FA1CFBA2B60033A2D5;
+			remoteInfo = ChocolateRain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68799A6F05D0A50E4F463A44 /* Pods-ChocolateRain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChocolateRain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChocolateRain/Pods-ChocolateRain.debug.xcconfig"; sourceTree = "<group>"; };
+		8049720B1D28BCB7007CEE74 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8049720D1D28C4B5007CEE74 /* CMDeviceMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMDeviceMotion.swift; sourceTree = "<group>"; };
+		8049721C1D2B25AA007CEE74 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		8049721D1D2B25AA007CEE74 /* image_bg_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_bg_01.jpg; sourceTree = "<group>"; };
+		8049721E1D2B25AA007CEE74 /* image_bg_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_bg_02.jpg; sourceTree = "<group>"; };
+		8049721F1D2B25AA007CEE74 /* image_bg_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_bg_03.jpg; sourceTree = "<group>"; };
+		804972201D2B25AA007CEE74 /* image_bg_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_bg_04.jpg; sourceTree = "<group>"; };
+		804972211D2B25AA007CEE74 /* image_bg_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_bg_05.jpg; sourceTree = "<group>"; };
+		804972221D2B25AA007CEE74 /* image_bg_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_bg_06.jpg; sourceTree = "<group>"; };
+		804972231D2B25AA007CEE74 /* image_bg_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_bg_07.jpg; sourceTree = "<group>"; };
+		804972241D2B25AA007CEE74 /* image_bg_08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_bg_08.jpg; sourceTree = "<group>"; };
+		804972251D2B25AA007CEE74 /* image_bg_09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_bg_09.jpg; sourceTree = "<group>"; };
+		804972261D2B25AA007CEE74 /* img-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-02.png"; sourceTree = "<group>"; };
+		804972331D2B25B2007CEE74 /* 01 Would You Be There.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Would You Be There.mp3"; sourceTree = "<group>"; };
+		804972341D2B25B2007CEE74 /* 02 Haunt Me ( marian x gianni ).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Haunt Me ( marian x gianni ).mp3"; sourceTree = "<group>"; };
+		804972351D2B25B2007CEE74 /* 03 HAZE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 HAZE.mp3"; sourceTree = "<group>"; };
+		804972361D2B25B2007CEE74 /* 04 Far Away (It's a Wild, Wild World My Love).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Far Away (It's a Wild, Wild World My Love).mp3"; sourceTree = "<group>"; };
+		804972371D2B25B2007CEE74 /* 05 SpiderWebs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 SpiderWebs.mp3"; sourceTree = "<group>"; };
+		804972381D2B25B2007CEE74 /* 06 Burning Man 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Burning Man 1.mp3"; sourceTree = "<group>"; };
+		804972391D2B25B2007CEE74 /* 07 Carrots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 Carrots.mp3"; sourceTree = "<group>"; };
+		8049723A1D2B25B2007CEE74 /* 08 Spacey (do dat shit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Spacey (do dat shit).mp3"; sourceTree = "<group>"; };
+		804972431D2B6233007CEE74 /* WaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+		807104101D2B7B940029E9C6 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		80B607FB1CFBA2B60033A2D5 /* ChocolateRain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChocolateRain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B607FE1CFBA2B60033A2D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80B608001CFBA2B60033A2D5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		80B608021CFBA2B60033A2D5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		80B608051CFBA2B60033A2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80B608071CFBA2B60033A2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80B6080A1CFBA2B60033A2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80B6080C1CFBA2B60033A2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B608111CFBA2B60033A2D5 /* ChocolateRainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChocolateRainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B608151CFBA2B60033A2D5 /* ChocolateRainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateRainTests.swift; sourceTree = "<group>"; };
+		80B608171CFBA2B60033A2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B6081C1CFBA2B60033A2D5 /* ChocolateRainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChocolateRainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B608201CFBA2B60033A2D5 /* ChocolateRainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolateRainUITests.swift; sourceTree = "<group>"; };
+		80B608221CFBA2B60033A2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B6082E1CFBBF8B0033A2D5 /* MotionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionKit.swift; sourceTree = "<group>"; };
+		A69E73A357FF09CFBADC6B02 /* Pods-ChocolateRain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChocolateRain.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChocolateRain/Pods-ChocolateRain.release.xcconfig"; sourceTree = "<group>"; };
+		C8022751F732DD5B2313A1AA /* Pods_ChocolateRain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChocolateRain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B607F81CFBA2B60033A2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8049720C1D28BCB7007CEE74 /* CoreLocation.framework in Frameworks */,
+				2944E42159A376B5ECF3DFF7 /* Pods_ChocolateRain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B6080E1CFBA2B60033A2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B608191CFBA2B60033A2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2522C5354EFDAF66FCACF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68799A6F05D0A50E4F463A44 /* Pods-ChocolateRain.debug.xcconfig */,
+				A69E73A357FF09CFBADC6B02 /* Pods-ChocolateRain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A54D050E4D5A5C6A8C6E726 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8049720B1D28BCB7007CEE74 /* CoreLocation.framework */,
+				C8022751F732DD5B2313A1AA /* Pods_ChocolateRain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		804972131D28E8FC007CEE74 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8049721C1D2B25AA007CEE74 /* cloud.png */,
+				8049721D1D2B25AA007CEE74 /* image_bg_01.jpg */,
+				8049721E1D2B25AA007CEE74 /* image_bg_02.jpg */,
+				8049721F1D2B25AA007CEE74 /* image_bg_03.jpg */,
+				804972201D2B25AA007CEE74 /* image_bg_04.jpg */,
+				804972211D2B25AA007CEE74 /* image_bg_05.jpg */,
+				804972221D2B25AA007CEE74 /* image_bg_06.jpg */,
+				804972231D2B25AA007CEE74 /* image_bg_07.jpg */,
+				804972241D2B25AA007CEE74 /* image_bg_08.jpg */,
+				804972251D2B25AA007CEE74 /* image_bg_09.jpg */,
+				804972261D2B25AA007CEE74 /* img-02.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		804972321D2B25B2007CEE74 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				804972331D2B25B2007CEE74 /* 01 Would You Be There.mp3 */,
+				804972341D2B25B2007CEE74 /* 02 Haunt Me ( marian x gianni ).mp3 */,
+				804972351D2B25B2007CEE74 /* 03 HAZE.mp3 */,
+				804972361D2B25B2007CEE74 /* 04 Far Away (It's a Wild, Wild World My Love).mp3 */,
+				804972371D2B25B2007CEE74 /* 05 SpiderWebs.mp3 */,
+				804972381D2B25B2007CEE74 /* 06 Burning Man 1.mp3 */,
+				804972391D2B25B2007CEE74 /* 07 Carrots.mp3 */,
+				8049723A1D2B25B2007CEE74 /* 08 Spacey (do dat shit).mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		80B607F21CFBA2B60033A2D5 = {
+			isa = PBXGroup;
+			children = (
+				80B607FD1CFBA2B60033A2D5 /* ChocolateRain */,
+				80B608141CFBA2B60033A2D5 /* ChocolateRainTests */,
+				80B6081F1CFBA2B60033A2D5 /* ChocolateRainUITests */,
+				80B607FC1CFBA2B60033A2D5 /* Products */,
+				1B2522C5354EFDAF66FCACF4 /* Pods */,
+				6A54D050E4D5A5C6A8C6E726 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80B607FC1CFBA2B60033A2D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B607FB1CFBA2B60033A2D5 /* ChocolateRain.app */,
+				80B608111CFBA2B60033A2D5 /* ChocolateRainTests.xctest */,
+				80B6081C1CFBA2B60033A2D5 /* ChocolateRainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B607FD1CFBA2B60033A2D5 /* ChocolateRain */ = {
+			isa = PBXGroup;
+			children = (
+				80B607FE1CFBA2B60033A2D5 /* AppDelegate.swift */,
+				80B608001CFBA2B60033A2D5 /* art.scnassets */,
+				80B608021CFBA2B60033A2D5 /* GameViewController.swift */,
+				80B608041CFBA2B60033A2D5 /* Main.storyboard */,
+				80B608071CFBA2B60033A2D5 /* Assets.xcassets */,
+				80B608091CFBA2B60033A2D5 /* LaunchScreen.storyboard */,
+				80B6080C1CFBA2B60033A2D5 /* Info.plist */,
+				80B6082E1CFBBF8B0033A2D5 /* MotionKit.swift */,
+				8049720D1D28C4B5007CEE74 /* CMDeviceMotion.swift */,
+				804972431D2B6233007CEE74 /* WaveformView.swift */,
+				807104101D2B7B940029E9C6 /* AudioPlayer.swift */,
+				804972131D28E8FC007CEE74 /* Image */,
+				804972321D2B25B2007CEE74 /* Sound */,
+			);
+			path = ChocolateRain;
+			sourceTree = "<group>";
+		};
+		80B608141CFBA2B60033A2D5 /* ChocolateRainTests */ = {
+			isa = PBXGroup;
+			children = (
+				80B608151CFBA2B60033A2D5 /* ChocolateRainTests.swift */,
+				80B608171CFBA2B60033A2D5 /* Info.plist */,
+			);
+			path = ChocolateRainTests;
+			sourceTree = "<group>";
+		};
+		80B6081F1CFBA2B60033A2D5 /* ChocolateRainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80B608201CFBA2B60033A2D5 /* ChocolateRainUITests.swift */,
+				80B608221CFBA2B60033A2D5 /* Info.plist */,
+			);
+			path = ChocolateRainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B607FA1CFBA2B60033A2D5 /* ChocolateRain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B608251CFBA2B60033A2D5 /* Build configuration list for PBXNativeTarget "ChocolateRain" */;
+			buildPhases = (
+				5B879ACC8C4C5F807975B00B /* Check Pods Manifest.lock */,
+				80B607F71CFBA2B60033A2D5 /* Sources */,
+				80B607F81CFBA2B60033A2D5 /* Frameworks */,
+				80B607F91CFBA2B60033A2D5 /* Resources */,
+				829764C954A412B2F5BB3AAC /* Embed Pods Frameworks */,
+				2C3B9C6B75B999F930F1E300 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChocolateRain;
+			productName = ChocolateRain;
+			productReference = 80B607FB1CFBA2B60033A2D5 /* ChocolateRain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80B608101CFBA2B60033A2D5 /* ChocolateRainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B608281CFBA2B60033A2D5 /* Build configuration list for PBXNativeTarget "ChocolateRainTests" */;
+			buildPhases = (
+				80B6080D1CFBA2B60033A2D5 /* Sources */,
+				80B6080E1CFBA2B60033A2D5 /* Frameworks */,
+				80B6080F1CFBA2B60033A2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B608131CFBA2B60033A2D5 /* PBXTargetDependency */,
+			);
+			name = ChocolateRainTests;
+			productName = ChocolateRainTests;
+			productReference = 80B608111CFBA2B60033A2D5 /* ChocolateRainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80B6081B1CFBA2B60033A2D5 /* ChocolateRainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B6082B1CFBA2B60033A2D5 /* Build configuration list for PBXNativeTarget "ChocolateRainUITests" */;
+			buildPhases = (
+				80B608181CFBA2B60033A2D5 /* Sources */,
+				80B608191CFBA2B60033A2D5 /* Frameworks */,
+				80B6081A1CFBA2B60033A2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B6081E1CFBA2B60033A2D5 /* PBXTargetDependency */,
+			);
+			name = ChocolateRainUITests;
+			productName = ChocolateRainUITests;
+			productReference = 80B6081C1CFBA2B60033A2D5 /* ChocolateRainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B607F31CFBA2B60033A2D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 99centbrains;
+				TargetAttributes = {
+					80B607FA1CFBA2B60033A2D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					80B608101CFBA2B60033A2D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 80B607FA1CFBA2B60033A2D5;
+					};
+					80B6081B1CFBA2B60033A2D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 80B607FA1CFBA2B60033A2D5;
+					};
+				};
+			};
+			buildConfigurationList = 80B607F61CFBA2B60033A2D5 /* Build configuration list for PBXProject "ChocolateRain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80B607F21CFBA2B60033A2D5;
+			productRefGroup = 80B607FC1CFBA2B60033A2D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B607FA1CFBA2B60033A2D5 /* ChocolateRain */,
+				80B608101CFBA2B60033A2D5 /* ChocolateRainTests */,
+				80B6081B1CFBA2B60033A2D5 /* ChocolateRainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B607F91CFBA2B60033A2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804972421D2B25B2007CEE74 /* 08 Spacey (do dat shit).mp3 in Resources */,
+				8049723F1D2B25B2007CEE74 /* 05 SpiderWebs.mp3 in Resources */,
+				8049722D1D2B25AA007CEE74 /* image_bg_06.jpg in Resources */,
+				8049723E1D2B25B2007CEE74 /* 04 Far Away (It's a Wild, Wild World My Love).mp3 in Resources */,
+				804972301D2B25AA007CEE74 /* image_bg_09.jpg in Resources */,
+				804972271D2B25AA007CEE74 /* cloud.png in Resources */,
+				804972291D2B25AA007CEE74 /* image_bg_02.jpg in Resources */,
+				80B608011CFBA2B60033A2D5 /* art.scnassets in Resources */,
+				8049722A1D2B25AA007CEE74 /* image_bg_03.jpg in Resources */,
+				804972311D2B25AA007CEE74 /* img-02.png in Resources */,
+				80B6080B1CFBA2B60033A2D5 /* LaunchScreen.storyboard in Resources */,
+				8049722F1D2B25AA007CEE74 /* image_bg_08.jpg in Resources */,
+				80B608081CFBA2B60033A2D5 /* Assets.xcassets in Resources */,
+				8049723D1D2B25B2007CEE74 /* 03 HAZE.mp3 in Resources */,
+				804972411D2B25B2007CEE74 /* 07 Carrots.mp3 in Resources */,
+				80B608061CFBA2B60033A2D5 /* Main.storyboard in Resources */,
+				804972401D2B25B2007CEE74 /* 06 Burning Man 1.mp3 in Resources */,
+				804972281D2B25AA007CEE74 /* image_bg_01.jpg in Resources */,
+				8049723C1D2B25B2007CEE74 /* 02 Haunt Me ( marian x gianni ).mp3 in Resources */,
+				8049722B1D2B25AA007CEE74 /* image_bg_04.jpg in Resources */,
+				8049722C1D2B25AA007CEE74 /* image_bg_05.jpg in Resources */,
+				8049722E1D2B25AA007CEE74 /* image_bg_07.jpg in Resources */,
+				8049723B1D2B25B2007CEE74 /* 01 Would You Be There.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B6080F1CFBA2B60033A2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B6081A1CFBA2B60033A2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C3B9C6B75B999F930F1E300 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChocolateRain/Pods-ChocolateRain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B879ACC8C4C5F807975B00B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		829764C954A412B2F5BB3AAC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChocolateRain/Pods-ChocolateRain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B607F71CFBA2B60033A2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B608031CFBA2B60033A2D5 /* GameViewController.swift in Sources */,
+				8049720E1D28C4B5007CEE74 /* CMDeviceMotion.swift in Sources */,
+				804972441D2B6233007CEE74 /* WaveformView.swift in Sources */,
+				80B607FF1CFBA2B60033A2D5 /* AppDelegate.swift in Sources */,
+				80B6082F1CFBBF8B0033A2D5 /* MotionKit.swift in Sources */,
+				807104111D2B7B940029E9C6 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B6080D1CFBA2B60033A2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B608161CFBA2B60033A2D5 /* ChocolateRainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B608181CFBA2B60033A2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B608211CFBA2B60033A2D5 /* ChocolateRainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80B608131CFBA2B60033A2D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B607FA1CFBA2B60033A2D5 /* ChocolateRain */;
+			targetProxy = 80B608121CFBA2B60033A2D5 /* PBXContainerItemProxy */;
+		};
+		80B6081E1CFBA2B60033A2D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B607FA1CFBA2B60033A2D5 /* ChocolateRain */;
+			targetProxy = 80B6081D1CFBA2B60033A2D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80B608041CFBA2B60033A2D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B608051CFBA2B60033A2D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80B608091CFBA2B60033A2D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B6080A1CFBA2B60033A2D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B608231CFBA2B60033A2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80B608241CFBA2B60033A2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B608261CFBA2B60033A2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68799A6F05D0A50E4F463A44 /* Pods-ChocolateRain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChocolateRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99centbrains.ChocolateRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80B608271CFBA2B60033A2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69E73A357FF09CFBADC6B02 /* Pods-ChocolateRain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChocolateRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99centbrains.ChocolateRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80B608291CFBA2B60033A2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ChocolateRainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99centbrains.ChocolateRainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChocolateRain.app/ChocolateRain";
+			};
+			name = Debug;
+		};
+		80B6082A1CFBA2B60033A2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChocolateRainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99centbrains.ChocolateRainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChocolateRain.app/ChocolateRain";
+			};
+			name = Release;
+		};
+		80B6082C1CFBA2B60033A2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ChocolateRainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99centbrains.ChocolateRainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChocolateRain;
+			};
+			name = Debug;
+		};
+		80B6082D1CFBA2B60033A2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChocolateRainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99centbrains.ChocolateRainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChocolateRain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B607F61CFBA2B60033A2D5 /* Build configuration list for PBXProject "ChocolateRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B608231CFBA2B60033A2D5 /* Debug */,
+				80B608241CFBA2B60033A2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B608251CFBA2B60033A2D5 /* Build configuration list for PBXNativeTarget "ChocolateRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B608261CFBA2B60033A2D5 /* Debug */,
+				80B608271CFBA2B60033A2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B608281CFBA2B60033A2D5 /* Build configuration list for PBXNativeTarget "ChocolateRainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B608291CFBA2B60033A2D5 /* Debug */,
+				80B6082A1CFBA2B60033A2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B6082B1CFBA2B60033A2D5 /* Build configuration list for PBXNativeTarget "ChocolateRainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B6082C1CFBA2B60033A2D5 /* Debug */,
+				80B6082D1CFBA2B60033A2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B607F31CFBA2B60033A2D5 /* Project object */;
+}
